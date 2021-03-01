@@ -28,7 +28,6 @@ function PlaySound(FileName) {
     };
 
     audio.src = FileName;
-    audio.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
     audio.pause();
     audio.currentTime = 0;
     audio.play();
@@ -89,11 +88,5 @@ function LoadID3(FileName) {
         tags: ["title", "artist", "album", "picture"]
     });
 }
-
-//document.getElementById('songLeft').stop();
-//document.getElementById('songRight').stop();
-
-//document.getElementById('artistLeft').stop();
-//document.getElementById('artistRight').stop();
 
 ShuffleMusic();
