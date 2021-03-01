@@ -59,7 +59,7 @@ function CheckMarquee() {
                 startVisible: true
             });
         }
-    }, 100);
+    }, 1000);
 }
 
 function LoadID3(FileName) {
