@@ -1,7 +1,7 @@
 ﻿body {
     user-select: none;
     overflow: hidden;
-    background-color: #08FF08;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .button {
