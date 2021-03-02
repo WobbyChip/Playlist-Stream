@@ -4,6 +4,18 @@
 
 body {
     margin: 0;
+    overflow: hidden;
+}
+
+#bgimg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;
 }
 
 #video {
