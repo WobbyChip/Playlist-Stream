@@ -70,6 +70,8 @@ function LoadID3(FileName) {
         document.getElementById('artistLeft').textContent = tags.artist || "No song playing";
         document.getElementById('artistRight').textContent = tags.artist || "No song playing";
 
+        CheckMarquee();
+
         if (tags.picture) {
             var base64 = "";
             for (var i = 0; i < tags.picture.data.length; i++) {
@@ -83,8 +85,6 @@ function LoadID3(FileName) {
             document.getElementById('coverLeft').setAttribute('src', '..\resources\cover.png');
             document.getElementById('coverRight').setAttribute('src', '..\resources\cover.png');
         }
-
-        CheckMarquee();
     }, {
         tags: ["title", "artist", "album", "picture"]
     });
