@@ -21,7 +21,6 @@ function ShuffleMusic() {
 
 function PlaySound(FileName) {
     LoadID3(FileName);
-    CheckMarquee();
 
     audio.onended = function() {
         ShuffleMusic();
@@ -84,6 +83,8 @@ function LoadID3(FileName) {
             document.getElementById('coverLeft').setAttribute('src', '..\resources\cover.png');
             document.getElementById('coverRight').setAttribute('src', '..\resources\cover.png');
         }
+
+        CheckMarquee();
     }, {
         tags: ["title", "artist", "album", "picture"]
     });
