@@ -42,7 +42,7 @@ function CheckMarquee() {
     }
 
     setTimeout(function() {
-        if (isElementOverflowing(document.getElementsByClassName("song")[1])) {
+        if (isElementOverflowing(document.getElementsByClassName("song")[0])) {
             marqueeSong = $('.song').marquee({
                 direction: 'left',
                 duplicated: true,
@@ -50,7 +50,7 @@ function CheckMarquee() {
             });
         }
     
-        if (isElementOverflowing(document.getElementsByClassName("artist")[1])) {
+        if (isElementOverflowing(document.getElementsByClassName("artist")[0])) {
             marqueeSong = $('.artist').marquee({
                 direction: 'left',
                 duplicated: true,
