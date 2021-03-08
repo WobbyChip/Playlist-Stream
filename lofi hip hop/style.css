@@ -67,7 +67,7 @@ body {
     width: 350px;
     height: auto;
     -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     overflow: hidden;
     white-space: nowrap;
@@ -84,7 +84,7 @@ body {
     height: auto;
     text-align: right;
     -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     overflow: hidden;
     white-space: nowrap;
@@ -100,7 +100,7 @@ body {
     width: 350px;
     height: auto;
     -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.2px;
     -webkit-text-stroke-color: black;
     overflow: hidden;
     white-space: nowrap;
@@ -117,7 +117,7 @@ body {
     height: auto;
     text-align: right;
     -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.2px;
     -webkit-text-stroke-color: black;
     overflow: hidden;
     white-space: nowrap;
