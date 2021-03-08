@@ -45,7 +45,7 @@ body {
     left: 5px;
     width: 128px;
     height: 128px;
-    outline: 1px solid black;
+    outline: 1.5px solid black;
 }
 
 #coverRight {
@@ -54,7 +54,7 @@ body {
     left: 367px;
     width: 128px;
     height: 128px;
-    outline: 1px solid black;
+    outline: 1.5px solid black;
 }
 
 #songLeft {
